@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Clothing Store</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="navbar">
-          <div class="container nav-container">
-              <input class="checkbox" type="checkbox" name="" id="" />
-              <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-              </div>  
-            <div class="logo">
-              <h1>Navbar</h1>
-            </div>
-            <div class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">blogs</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">contact</a></li>
-            </div>
+      <div class="navbar">
+        <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <div class="shopping-cart">
+            <a href="#"
+              ><img src="assets/shopping-cart.png" alt="Shopping Cart"
+            /></a>
+          </div>
+          <div class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About-Us/about.html">about</a></li>
+            <li><a href="#">blogs</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <header>
-        <h1>Welcome to our Clothing Store</h1>
+      <h1>Welcome to our Clothing Store</h1>
     </header>
-    
+
     <section id="products">
-        <!-- Product Cards will be dynamically generated here using JavaScript -->
+      <!-- Product Cards will be dynamically generated here using JavaScript -->
     </section>
+
+    <!-- Product Carousel Section -->
+    <section id="product-carousel">
+      <div class="carousel">
+        <div class="carousel-item">
+          <!-- Content for the first carousel item -->
+        </div>
+        <div class="carousel-item">
+          <!-- Content for the second carousel item -->
+        </div>
+        <!-- Add more carousel items here -->
+      </div>
+      <button id="carousel-prev">Previous</button>
+      <button id="carousel-next">Next</button>
+    </section>
+
+    <!-- Back to Top Anchor Link -->
+    <a href="#top" class="back-to-top"
+      ><img src="assets/anchor.png" alt="Anchor"
+    /></a>
 
     <!-- Footer Section -->
     <footer>
-        <div class="social-media">
-            <a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
-            <a href="https://www.facebook.com" target="_blank"><img src="facebook-circular-logo.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-        </div>
-        <div class="privacy-policy">
-            <!-- <a href="/privacy-policy.html">Privacy Policy</a> -->
-        </div>
+      <div class="social-media">
+        <a href="https://www.whatsapp.com" target="_blank"
+          ><img src="assets/whatsapp.png" alt="WhatsApp"
+        /></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="assets/facebook-circular-logo.png" alt="Facebook"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="assets/instagram.png" alt="Instagram"
+        /></a>
+      </div>
+      <div class="privacy-policy">
+        <!-- <a href="/privacy-policy.html">Privacy Policy</a> -->
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  </body>
 </html>
