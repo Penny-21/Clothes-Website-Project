@@ -104,7 +104,8 @@ body {
 
 .navbar .menu-items {
     padding-top: 120px;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 204);
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 204); */
+    background-color: gray;
     height: 163.5vh;
     width: 100%;
     transform: translate(-150%);
@@ -115,6 +116,10 @@ body {
     transition: transform 0.5s ease-in-out;
     text-align: center;
 }
+
+/* @media screen() {
+    
+} */
 
 .navbar .menu-items li {
     margin-bottom: 1.2rem;
@@ -158,7 +163,7 @@ body {
 /*Navbar section*/
 
 header {
-    background-image: url('assets/backg-prova.jpg');
+    background-image: url('assets/shop-clothing-clothes-shop-hanger-modern-shop-boutique.jpg');
     /* Replace with the actual image file path or URL */
     background-size: cover;
     /* Adjust as needed (cover, contain, etc.) */
@@ -204,6 +209,7 @@ header {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    z-index: -1;
 }
 
 /* Hide the images by default */
@@ -295,6 +301,7 @@ header {
 
 /* Styles for the "back to top" anchor */
 .back-to-top {
+    /* z-index: -1; */
     display: none;
     position: fixed;
     bottom: 20px;
