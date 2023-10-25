@@ -162,6 +162,29 @@ body {
 
 /*Navbar section*/
 
+/* Styles for the language switch button */
+#language-switch {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust the gap between the image and text */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #0e2431;
+    padding: 0.7rem;
+    position: absolute;
+    top: 5%;
+    right: 12%;
+}
+
+#language-switch img {
+    width: 20px; /* Adjust the image width as needed */
+    height: 20px; /* Adjust the image height as needed */
+}
+
+
 header {
     background-image: url('assets/shop-clothing-clothes-shop-hanger-modern-shop-boutique.jpg');
     /* Replace with the actual image file path or URL */
@@ -202,6 +225,11 @@ header {
 
 .product-card p {
     color: #888;
+}
+
+.product-card:hover {
+    box-shadow: 1px 8px 20px grey;
+    transition:  box-shadow .6s ease-in;
 }
 
 /* Slideshow container */
