@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease-in-out;
 }
 
 /*Navbar section*/
@@ -157,16 +159,77 @@ body {
 /*Navbar section*/
 
 header {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 50px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 h1 {
     font-size: 2rem;
+    color: #333;
+    transition: color 0.5s ease-in-out;
+}
+
+/* Hover effect for the header */
+header:hover {
+    background-color: #333; /* New background color on hover */
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Hover effect for the header text */
+header:hover h1 {
+    color: #fff; /* New text color on hover */
+    transition: color 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* Styles for the card container */
+.about-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the card image */
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styles for the card text */
+.card-text {
+    margin-left: 20px;
+}
+
+.card-text h2 {
+    font-size: 1.5rem;
     margin: 0;
 }
+
+.card-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+
+
+
+
+
 
 .about-section {
     display: flex;

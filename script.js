@@ -69,11 +69,11 @@ const flagImage = document.getElementById('flag');
 const languages = {
   en: {
       flag: 'assets/uk-flag-icon.png',
-      text: 'en',
+      text: 'PT',
   },
   pt: {
       flag: 'assets/bandeira-nacional.jpg',
-      text: 'pt',
+      text: 'EN',
   },
 };
 
