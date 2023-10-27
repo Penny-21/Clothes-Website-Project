@@ -264,6 +264,21 @@ img {
     border-radius: 5px;
 }
 
+.video-section h2 {
+    text-align: center;
+}
+
+/* Style for the video section */
+.video-section {
+    text-align: center;
+}
+
+/* Style for the video */
+.video-section video {
+    width: 20%; /* Set video width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the video */
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+}
 
 
 
