@@ -8,7 +8,8 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.5s ease-in-out;
-    background-color: #f0f0f0; /* Initial background color */
+    background-color: #f0f0f0;
+    /* Initial background color */
 }
 
 /*Navbar section*/
@@ -167,7 +168,8 @@ body {
 #language-switch {
     display: flex;
     align-items: center;
-    gap: 5px; /* Adjust the gap between the image and text */
+    gap: 5px;
+    /* Adjust the gap between the image and text */
     background: none;
     border: none;
     cursor: pointer;
@@ -181,8 +183,10 @@ body {
 }
 
 #language-switch img {
-    width: 20px; /* Adjust the image width as needed */
-    height: 20px; /* Adjust the image height as needed */
+    width: 20px;
+    /* Adjust the image width as needed */
+    height: 20px;
+    /* Adjust the image height as needed */
 }
 
 
@@ -210,7 +214,8 @@ header h1 {
 
 /* Hover effect for the header text */
 header:hover h1 {
-    color: #fff; /* New text color on hover */
+    color: #fff;
+    /* New text color on hover */
 }
 
 #products {
@@ -243,7 +248,7 @@ header:hover h1 {
 
 .product-card:hover {
     box-shadow: 1px 8px 20px grey;
-    transition:  box-shadow .6s ease-in;
+    transition: box-shadow .6s ease-in;
 }
 
 /* Slideshow container */
@@ -432,13 +437,13 @@ ul {
     /* top: 50%; */
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  ul li {
+}
+
+ul li {
     list-style: none;
-  }
-  
-  ul li a {
+}
+
+ul li a {
     width: 80px;
     height: 80px;
     background-color: #fff;
@@ -452,21 +457,21 @@ ul {
     overflow: hidden;
     border: 3px solid #fff;
     z-index: 1;
-  }
-  
-  ul li a .icon {
+}
+
+ul li a .icon {
     position: relative;
     color: #262626;
     transition: .5s;
     z-index: 3;
-  }
-  
-  ul li a:hover .icon {
+}
+
+ul li a:hover .icon {
     color: #fff;
     transform: rotateY(360deg);
-  }
-  
-  ul li a:before {
+}
+
+ul li a:before {
     content: "";
     position: absolute;
     top: 100%;
@@ -476,23 +481,23 @@ ul {
     background: #f00;
     transition: .5s;
     z-index: 2;
-  }
-  
-  ul li a:hover:before {
+}
+
+ul li a:hover:before {
     top: 0;
-  }
-  
-  ul li:nth-child(1) a:before{
+}
+
+ul li:nth-child(1) a:before {
     background: #8B431E;
-  }
-  
-  ul li:nth-child(2) a:before{
+}
+
+ul li:nth-child(2) a:before {
     background: #8B431E;
-  }
-  
-  ul li:nth-child(3) a:before {
+}
+
+ul li:nth-child(3) a:before {
     background: #8B431E;
-  }
+}
 
 
 

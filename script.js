@@ -1,4 +1,3 @@
-
 const backToTopLink = document.querySelector(".back-to-top");
 
 window.addEventListener("scroll", () => {
@@ -19,7 +18,6 @@ const translationsEN = {
   "menu.home": "Home",
   "menu.about": "About",
   "menu.blogs": "Blogs",
-  "menu.portfolio": "Portfolio",
   "menu.contact": "Contact",
   "header.welcome": "Welcome to our Clothing Store",
 };
@@ -29,7 +27,6 @@ const translationsPT = {
   "menu.home": "Início",
   "menu.about": "Sobre",
   "menu.blogs": "Blogs",
-  "menu.portfolio": "Portfólio",
   "menu.contact": "Contato",
   "header.welcome": "Bem-vindo à nossa loja de roupas",
 };
@@ -87,27 +84,28 @@ switchLanguage();
 // Sample data for products
 const products = [
   {
-    name: "Dress",
+    name: "Vestir",
     price: "$50",
     image: "assets/Giuly-1.png",
     description:
       "Vento vem me trazer boas novas! E a novidade dessa coleção da ogue é esse chemise com essa estamapa linda de animal print!! já garante a sua, porque são poucas peças hein.",
   },
   {
-    name: "Body-Dress",
+    name: "Túnica",
     price: "$40",
     image: "assets/Body-Dress-2.png",
     description:
       "Vermelho significa paixão, energia e excitação. É uma cor quente. É a cor do elemento fogo, do sangue e do coração humano. Simboliza a chama que mantém vivo o desejo, a excitação sexual e representa os sentimentos de amor e paixão.",
   },
   {
-    name: "Dress",
+    name: "Vestir",
     price: "$40",
     image: "assets/Black-dress.png",
-    description: "O nosso Vestido Moletim é a peça que não pode faltar na sua casa para você curtir os fins de semana de uma forma mais leve e cheia de elegância!",
+    description:
+      "O nosso Vestido Moletim é a peça que não pode faltar na sua casa para você curtir os fins de semana de uma forma mais leve e cheia de elegância!",
   },
   {
-    name: "T-Shirt",
+    name: "Camiseta",
     price: "$20",
     image: "assets/Giorgio-brasiliano.png",
     description:
@@ -170,33 +168,33 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
-
-
-
-
-
-
 // Array of background colors to cycle through
-const colors = ['#f0f0f0', '#ffcc66', '#66ccff', '#99ff99', '#ff6666', '#ccccff'];
+const colors = [
+  "#f0f0f0",
+  "#ffcc66",
+  "#66ccff",
+  "#99ff99",
+  "#ff6666",
+  "#ccccff",
+];
 
 // Function to change the background color
 function changeBackgroundColor() {
-    // Get the body element
-    const body = document.body;
+  // Get the body element
+  const body = document.body;
 
-    // Get the current background color
-    const currentColor = body.style.backgroundColor;
+  // Get the current background color
+  const currentColor = body.style.backgroundColor;
 
-    // Find the index of the current color in the array
-    const currentIndex = colors.indexOf(currentColor);
+  // Find the index of the current color in the array
+  const currentIndex = colors.indexOf(currentColor);
 
-    // Calculate the index of the next color
-    const nextIndex = (currentIndex + 1) % colors.length;
+  // Calculate the index of the next color
+  const nextIndex = (currentIndex + 1) % colors.length;
 
-    // Set the next background color
-    body.style.backgroundColor = colors[nextIndex];
+  // Set the next background color
+  body.style.backgroundColor = colors[nextIndex];
 }
 
 // Set an interval to change the background color automatically every 3 seconds (3000 milliseconds)
 setInterval(changeBackgroundColor, 3000);
-

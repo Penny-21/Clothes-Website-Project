@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
     <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <nav>
@@ -21,23 +27,29 @@
               ><img src="/assets/shopping-cart.png" alt="Shopping Cart"
             /></a>
           </div>
+          <button id="language-switch">
+            <img
+              id="flag"
+              src="/assets/bandeira-nacional.jpg"
+              alt="Language icon"
+            />
+          </button>
           <div class="menu-items">
             <li><a href="/index.html">Home</a></li>
             <li><a href="about.html">about</a></li>
             <li><a href="#">blogs</a></li>
-            <li><a href="#">portfolio</a></li>
             <li><a href="#">contact</a></li>
           </div>
         </div>
       </div>
     </nav>
     <header>
-      <h1>About Us</h1>
+      <h1>Quem Somos</h1>
     </header>
 
     <section class="about-section">
       <div class="about-text">
-        <h2>Our Story</h2>
+        <h2>Quem somos</h2>
         <p>
           A O GUE é uma marca de Moda Afro-Brasileira, que surgiu de uma
           necessidade de apresentar uma moda afro sem ser caricata, ou seja sem
@@ -61,7 +73,7 @@
         <img src="/assets/Nossa-historia.png" alt="Card Image" />
       </div>
       <div class="card-text">
-        <h2>About Us</h2>
+        <h2>Nossa história</h2>
         <p>
           Afroempreendedora e estilista da marca O GUE, formada em Design pela
           Faculdade Senai Cetiqt, Thársila Tostes (@tharsila_rt) de 29 anos,
@@ -79,12 +91,12 @@
     </section>
 
     <section class="video-section">
-      <h2 class="hover-4">Our Promotional Video</h2>
+      <h2 class="hover-4">Nosso vídeo social</h2>
       <video controls>
         <source src="/Videos/OGue-Video-1.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <video controls style="margin-bottom: 13%;">
+      <video controls style="margin-bottom: 13%">
         <source src="/Videos/OGue-Video-3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -92,20 +104,45 @@
         <source src="/Videos/OGue-Video-2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
     </section>
+
+    <!-- Back to Top Anchor Link -->
+    <a href="#top" class="back-to-top"
+      ><img src="/assets/anchor.png" alt="Anchor"
+    /></a>
+
     <!-- Footer Section -->
     <footer>
       <div class="social-media">
-        <a href="https://api.whatsapp.com/message/UO6UKJJSDQURA1?autoload=1&app_absent=0" target="_blank"
-          ><img src="/assets/whatsapp.png" alt="WhatsApp"
+        <!-- <a
+          href="https://api.whatsapp.com/message/UO6UKJJSDQURA1?autoload=1&app_absent=0"
+          target="_blank"
+          ><img src="assets/whatsapp.png" alt="WhatsApp"
         /></a>
         <a href="https://www.facebook.com" target="_blank"
-          ><img src="/assets/facebook-circular-logo.png" alt="Facebook"
+          ><img src="assets/facebook-circular-logo.png" alt="Facebook"
         /></a>
         <a href="https://www.instagram.com/o_gue/" target="_blank"
-          ><img src="/assets/instagram.png" alt="Instagram"
-        /></a>
+          ><img src="assets/instagram.png" alt="Instagram"
+        /></a> -->
+        <ul>
+          <li>
+            <a
+              href="https://api.whatsapp.com/message/UO6UKJJSDQURA1?autoload=1&app_absent=0"
+              ><i class="fab fa-whatsapp icon"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com">
+              <i class="fab fa-facebook-f icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/o_gue/"
+              ><i class="fab fa-instagram icon"></i
+            ></a>
+          </li>
+        </ul>
       </div>
       <div class="privacy-policy">
         <!-- <a href="/privacy-policy.html">Privacy Policy</a> -->
