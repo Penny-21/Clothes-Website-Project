@@ -84,31 +84,35 @@ switchLanguage();
 // Sample data for products
 const products = [
   {
-    name: "Vestir",
-    price: "$50",
-    image: "assets/Giuly-1.png",
-    description:
+    nome: "Vestir",
+    preço: "$50",
+    Tamanho: "PP-P-M-G-2G-3G-4G",
+    imaagem: "assets/Giuly-1.png",
+    descescao:
       "Vento vem me trazer boas novas! E a novidade dessa coleção da ogue é esse chemise com essa estamapa linda de animal print!! já garante a sua, porque são poucas peças hein.",
   },
   {
     name: "Túnica",
-    price: "$40",
-    image: "assets/Body-Dress-2.png",
-    description:
+    preço: "$40",
+    Tamanho: "PP-P-M-G-2G-3G-4G",
+    imaagem: "assets/Body-Dress-2.png",
+    descescao:
       "Vermelho significa paixão, energia e excitação. É uma cor quente. É a cor do elemento fogo, do sangue e do coração humano. Simboliza a chama que mantém vivo o desejo, a excitação sexual e representa os sentimentos de amor e paixão.",
   },
   {
-    name: "Vestir",
-    price: "$40",
-    image: "assets/Black-dress.png",
-    description:
+    nome: "Vestir",
+    preço: "$40",
+    Tamanho: "PP-P-M-G-2G-3G-4G",
+    imaagem: "assets/Black-dress.png",
+    descescao:
       "O nosso Vestido Moletim é a peça que não pode faltar na sua casa para você curtir os fins de semana de uma forma mais leve e cheia de elegância!",
   },
   {
-    name: "Camiseta",
-    price: "$20",
-    image: "assets/Giorgio-brasiliano.png",
-    description:
+    nome: "Camiseta",
+    preço: "$20",
+    Tamanho: "PP-P-M-G-2G-3G-4G",
+    imaagem: "assets/Giorgio-brasiliano.png",
+    descescao:
       "Com recorte na lateral e com tecido de Moletim, o nosso Camisão assimétrico é a peça perfeita para essa época do ano, te proporcionando elegância e um conforto incrível para tirar aquela foto em família!",
   },
   // Add more products here
@@ -119,27 +123,31 @@ function createProductCard(product) {
   const productCard = document.createElement("div");
   productCard.classList.add("product-card");
 
-  const image = document.createElement("img");
-  image.src = product.image;
+  const imaagem = document.createElement("img");
+  imaagem.src = product.imaagem;
 
-  const name = document.createElement("h2");
-  name.textContent = product.name;
+  const nome = document.createElement("h2");
+  nome.textContent = product.nome;
 
-  const price = document.createElement("p");
-  price.textContent = `Price: ${product.price}`;
+  const preço = document.createElement("p");
+  preço.textContent = `preço: ${product.preço}`;
 
-  const description = document.createElement("p");
-  description.textContent = product.description;
+  const Tamanho = document.createElement("p");
+  Tamanho.textContent = product.Tamanho;
+
+  const descescao = document.createElement("p");
+  descescao.textContent = product.descescao;
 
   //Add a click event listener to each product card
   productCard.addEventListener("click", () => {
-    alert(`Clicked on ${product.name}`);
+    alert(`Clicked on ${product.nome}`);
   });
 
-  productCard.appendChild(image);
-  productCard.appendChild(name);
-  productCard.appendChild(price);
-  productCard.appendChild(description);
+  productCard.appendChild(imaagem);
+  productCard.appendChild(nome);
+  productCard.appendChild(preço);
+  productCard.appendChild(Tamanho);
+  productCard.appendChild(descescao);
 
   return productCard;
 }
