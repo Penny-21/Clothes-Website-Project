@@ -20,6 +20,10 @@ const translationsEN = {
   "menu.blogs": "Blogs",
   "menu.contact": "Contact",
   "header.welcome": "Welcome to our Clothing Store",
+  "h.about": "Who we are",
+  "p.about": "GUE is an Afro-Brazilian Fashion brand, which arose from a need to present an Afro fashion without being caricatured, that is, without using African fabrics and prints with imagery of black women in turbans. We believe that afro fashion goes far beyond that. Our main values are: to make a democratic fashion, which dresses everyone, that's why we currently serve the grid from PP to G4, but by making it custom, we make pieces for all bodies and genders that want to purchase our products. In addition, because we are a brand with value religious, as well as collections focused on matrix religions Africans, we also work with the color white all year round.",
+  "h.story": "Our Story",
+  "p.story": "Afro-entrepreneur and stylist of the brand O GUE, graduated in Design from Faculdade Senai Cetiqt, Thársila Tostes (@tharsila_rt) 29 years old, started her brand O GUE in 2015. GUE was born with the purpose of making an Afro-Brazilian and agenera fashion, respecting and exalting diversity, through collections that tell about Afro culture, bringing ancestral knowledge, rescuing black history. Over the years, the brand has gone through a break, due to the maternity of its creator, and in 2020 During the pandemic, it returns to the market. Currently with a new visual identity, and launching the new Aye collection, O GUE invites all clients and friends to meet our stylist and your new collection!",
 };
 
 // Translations for Portuguese
@@ -29,6 +33,10 @@ const translationsPT = {
   "menu.blogs": "Blogs",
   "menu.contact": "Contato",
   "header.welcome": "Bem-vindo à nossa loja de roupas",
+  "h.about": "Quem somos",
+  "p.about": "A O GUE é uma marca de Moda Afro-Brasileira, que surgiu de uma necessidade de apresentar uma moda afro sem ser caricata, ou seja sem utilizar tecidos africanos e estampas com imagético de mulheres negras de turbantes. Acreditamos que moda afro, vai muito além disso. Nossos principais valores são: fazer uma moda democrática, que vista a todos, por isso, atualmente atendemos a grade do PP ao G4, mas por fazer sob medida, fazemos peças para todos os corpos e gêneros que queiram adquirir nossos produtos. Além disso, por sermos uma marca com valor religioso, além de coleções voltadas para religiões de matrizes africanas, também trabalhamos a cor branca o ano inteiro.",
+  "h.story": "Nossa história",
+  "p.story": "Afroempreendedora e estilista da marca O GUE, formada em Design pela Faculdade Senai Cetiqt, Thársila Tostes (@tharsila_rt) de 29 anos, iniciou a sua marca O GUE em 2015. O GUE nasceu com o propósito de fazer uma moda afro brasileira e agenera, respeitando e exaltando a diversidade, através de coleções que contam sobre a cultura afro, trazendo saberes ancestrais, resgatando a história negra. Ao longo desses anos, a marca passou por uma pausa, devido a maternidade de sua criadora, e em 2020 durante a pandemia, retorna ao mercado. Atualmente com uma nova identidade visual, e lançando a nova coleção Aye, a O GUE convida a todos os clientes e amigos a conhecerem a nossa estilista e sua nova coleção!"
 };
 
 // Define language switch button and flag image
