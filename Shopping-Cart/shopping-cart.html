@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shopping-cart.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shopping-cart.css" />
     <title>Shopping Cart</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="/index.html" class="back-button">←</a>
-            <!-- Your other navigation menu items go here -->
-        </nav>
+      <nav>
+        <a href="/index.html" class="back-button">←</a>
+        <!-- Your other navigation menu items go here -->
+      </nav>
     </header>
 
     <section class="shopping-cart">
-        <h1>Your Shopping Cart</h1>
-        <div class="cart-item">
-            <img src="product1.jpg" alt="Product 1">
-            <div class="item-details">
-                <h2>Product Name</h2>
-                <p>Price: $10.00</p>
-                <p>Quantity: 2</p>
-            </div>
-            <button class="remove-item">Remove</button>
+      <h1>Your Shopping Cart</h1>
+      <div class="cart-item">
+        <img src="product1.jpg" alt="Product 1" />
+        <div class="item-details">
+          <h2>Product Name</h2>
+          <p>Price: $10.00</p>
+          <p>Quantity: 2</p>
         </div>
-        <!-- Add more cart items here -->
+        <button class="remove-item">Remove</button>
+      </div>
+      <!-- Add more cart items here -->
     </section>
 
     <button id="checkout-button">Checkout</button>
 
-
     <footer>
-        <!-- Your footer content goes here -->
+      <!-- Your footer content goes here -->
     </footer>
 
     <script src="shopping-cart.js"></script>
-</body>
+    <!-- <script src="https://js.stripe.com/v3/"></script>
+    <script>
+      var stripe = Stripe("EJCzKzcwmVTsO8Z10PFuOB8OfWxGUkXFRRtj_9Oc4hcgMdudKEv6QSlnFw-bEW0kFhsQjtt-FZE2GeDx");
+      var checkoutButton = document.getElementById("checkout-button");
+
+      checkoutButton.addEventListener("click", function () {
+        // Use Stripe.js to handle the payment process
+        stripe.redirectToCheckout({
+          items: [{ sku: "sku_12345", quantity: 1 }],
+          successUrl: "success.html",
+          cancelUrl: "cancel.html",
+        });
+      });
+    </script> -->
+  </body>
 </html>
