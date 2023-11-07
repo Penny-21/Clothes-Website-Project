@@ -1,0 +1,47 @@
+/* Style for the shopping cart */
+.shopping-cart {
+    text-align: center;
+}
+
+/* Style for each cart item */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+}
+
+.item-details {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.remove-item {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-item:hover {
+    background-color: #cc0000;
+}
+
+
+.back-button {
+    font-size: 24px; /* Adjust the size as needed */
+    text-decoration: none;
+    color: black;
+    margin-right: 10px; /* Add margin for spacing */
+}
